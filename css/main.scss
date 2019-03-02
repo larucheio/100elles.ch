@@ -3,4 +3,19 @@
 
 $primary: #903373;
 
+$enable-responsive-font-sizes: true;
+
 @import "bootstrap/bootstrap";
+
+.bio {
+    column-count: 1;
+    text-align: justify;
+    hyphens: auto;
+}
+
+@include media-breakpoint-up(lg) {
+  .bio {
+    column-count: 2;
+    column-gap: 3rem;
+  }
+}
