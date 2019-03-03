@@ -1,21 +1,35 @@
 ---
 ---
 
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    6: ($spacer * 6),
+    7: ($spacer * 8)
+  ),
+  $spacers
+);
+
+$font-family-serif:           'TimesNewRomanPSMT', 'Times New Roman', serif !default;
+$font-family-base:            $font-family-serif !default;
+$headings-font-family:        'GoudyCatalog BT', 'Times New Roman', serif !default;
+$font-size-base:              1.25rem !default; // Assumes the browser default, typically `16px`
+
 $primary: #903373;
 
 $enable-responsive-font-sizes: true;
 
 @import "bootstrap/bootstrap";
 
-.bio {
-    column-count: 1;
-    text-align: justify;
-    hyphens: auto;
-}
-
-@include media-breakpoint-up(lg) {
-  .bio {
-    column-count: 2;
-    column-gap: 3rem;
-  }
+.paragraph {
+  line-height: 30px;
+  max-width: 65ch;
 }
