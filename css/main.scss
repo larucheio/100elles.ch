@@ -29,8 +29,15 @@ $enable-responsive-font-sizes: true;
 
 @import "bootstrap/bootstrap";
 
-.paragraph {
+ul {
+  list-style-image: url('/img/ul-icon.svg');
+}
+
+body {
   line-height: 25px;
+}
+
+.paragraph {
   max-width: 65ch;
 }
 
