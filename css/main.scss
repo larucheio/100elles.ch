@@ -18,10 +18,10 @@ $spacers: map-merge(
   $spacers
 );
 
-$font-family-serif:           'TimesNewRomanPSMT', 'Times New Roman', serif !default;
+$font-family-serif:           'EB Garamond', 'TimesNewRomanPSMT', 'Times New Roman', serif !default;
 $font-family-base:            $font-family-serif !default;
-$headings-font-family:        'GoudyCatalog BT', 'Times New Roman', serif !default;
-$font-size-base:              1.25rem !default; // Assumes the browser default, typically `16px`
+$headings-font-family:        'EB Garamond', 'TimesNewRomanPSMT', 'Times New Roman', serif !default;
+$font-size-base:              1.15rem !default; // Assumes the browser default, typically `16px`
 
 $primary: #903373;
 
@@ -30,7 +30,7 @@ $enable-responsive-font-sizes: true;
 @import "bootstrap/bootstrap";
 
 .paragraph {
-  line-height: 30px;
+  line-height: 25px;
   max-width: 65ch;
 }
 
