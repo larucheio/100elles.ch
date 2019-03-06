@@ -183,7 +183,8 @@
     let markers = womens.map(woman => {
       let marker = L.marker(woman.position, {icon: myIcon}).addTo(mymap)
       // let marker = L.marker(woman.position).addTo(mymap)
-      marker.bindPopup(`<a href="/100femmes/${woman.slug}/"><b>${woman.name}</b></a><br>${woman.description}`)
+      // marker.bindPopup(`<a href="/100femmes/${woman.slug}/"><b>${woman.name}</b></a><br>${woman.description}`)
+      marker.bindPopup(`<b>${woman.name}</b><br>${woman.description}`)
       return marker
     })
   </script>
