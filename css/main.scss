@@ -41,6 +41,16 @@ body {
   max-width: 65ch;
 }
 
+.paragraph > p {
+  text-indent: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paragraph > p:first-child {
+  text-indent: 0;
+}
+
 #mapid {
   height: 800px;
 }
