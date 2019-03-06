@@ -1,0 +1,69 @@
+---
+---
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    6: ($spacer * 6),
+    7: ($spacer * 8)
+  ),
+  $spacers
+);
+
+$font-family-serif:           'EB Garamond', 'TimesNewRomanPSMT', 'Times New Roman', serif !default;
+$font-family-base:            $font-family-serif !default;
+$headings-font-family:        'EB Garamond', 'TimesNewRomanPSMT', 'Times New Roman', serif !default;
+$font-size-base:              1.15rem !default; // Assumes the browser default, typically `16px`
+
+$primary: #903373;
+
+$enable-responsive-font-sizes: true;
+
+@import "bootstrap/bootstrap";
+
+ul {
+  list-style-image: url('/img/ul-icon.svg');
+}
+
+body {
+  line-height: 25px;
+}
+
+.paragraph {
+  max-width: 65ch;
+}
+
+#mapid {
+  height: 800px;
+}
+
+.card-femme {
+  // font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: $primary;
+  color: white;
+  padding: 1rem;
+  min-height: 12rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-femme:hover {
+  text-decoration: none;
+  color: white;
+}

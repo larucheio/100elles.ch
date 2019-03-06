@@ -15,35 +15,177 @@
     <meta name="application-name" content="100 Elles*">
     <meta name="msapplication-TileColor" content="#63101a">
     <meta name="theme-color" content="#ffffff">
+
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""/>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91148813-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-91148813-5');
+    </script>
+
+
   </head>
   <body>
+    <nav class="navbar navbar-light mb-5">
+      <a class="navbar-brand" href="/">
+        <img src="/img/100elles-logo.svg" height="30" alt="100 Elles*">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Accueil</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projet
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownProject">
+              <a class="dropdown-item" href="/projet/explications/">Explications</a>
+              <a class="dropdown-item" href="/projet/choix-des-noms/">Choix des noms</a>
+              <a class="dropdown-item" href="/projet/reflexions/">Réflexions</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/100femmes/">100 femmes*</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/visites-guidees/">Visites guidées</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/evenements/">Évènements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/partenaires/">Partenaires</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/lescouade/">L'Escouade</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/medias/">Médias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     {{ content }}
 
-    <style media="screen">
-      body {
-        margin: 1rem;
-        background-color: #903373;
-        color: white;
-        font-family: sans-serif;
-        font-weight: lighter;
-        display: flex;
-        flex-flow: column;
-        align-items: center
-      }
+    <footer class="bg-light mt-5">
+      <div class="container py-5">
+        <a href="https://lescouade.ch/" class="pr-5"><img src="/img/lescouade-logo.svg" height="50" alt="L'Escouade"></a>
+        <img src="/img/subventionne-par-la-ville-de-geneve.svg" height="50" alt="Subventionné par la ville de Genève">
+      </div>
+    </footer>
 
-      a {
-        color: white;
-      }
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
 
-      .logo {
-        width: 100px;
-        margin-top: 2rem;
-      }
+  <script type="text/javascript">
 
-      .description {
-        max-width: 30rem;
+    let womens = [
+      {
+        slug: 'marcelle-bard',
+        name: 'Marcelle BARD',
+        description: '1903-1988, Théologienne et pasteure',
+        position: [46.21012, 6.13734]
+      },
+      {
+        slug: 'henriette-bonna',
+        name: 'Henriette BONNA',
+        description: 'Baudichon, ~1510-~1537, Militante protestante',
+        position: [46.21126, 6.13752]
+      },
+      {
+        slug: 'yvonne-bovard',
+        name: 'Yvonne BOVARD',
+        description: '1902-1984, Violoniste',
+        position: [46.21038, 6.13968]
+      },
+      {
+        slug: 'josephine-butler',
+        name: 'Josephine BUTLER',
+        description: '1828-1906, Militante féministe et réformatrice sociale',
+        position: [46.21005, 6.13972]
+      },
+      {
+        slug: 'helene-gautier-pictet',
+        name: 'Hélène GAUTIER-PICTET',
+        description: '1888-1973, Fondatrice du Centre de liaison des associations féministes de Genève',
+        position: [46.21147, 6.14101]
+      },
+      {
+        slug: 'marie-louise-mignot',
+        name: 'Marie-Louise MIGNOT',
+        description: 'dite Madame Denis, 1712-1790, Salonnière',
+        position: [46.20792, 6.13700]
+      },
+      {
+        slug: 'paule-minck',
+        name: 'Paule MINCK',
+        description: '1839-1901, Femme de lettres, communarde et féministe',
+        position: [46.20997, 6.13920]
+      },
+      {
+        slug: 'jean-sindab',
+        name: 'Jean SINDAB',
+        description: '1944-1996, Internationaliste antiraciste et antisexiste',
+        position: [46.20937, 6.14045]
+      },
+      {
+        slug: 'camille-vidart',
+        name: 'Camille VIDART',
+        description: '1854-1930, Présidente de l’Union des femmes de Genève',
+        position: [46.21351, 6.13268]
+      },
+      {
+        slug: 'violeta-parra',
+        name: 'Violeta PARRA',
+        description: '1917-1967, Chanteuse et artiste plasticienne',
+        position: [46.20847, 6.13441]
       }
-    </style>
+    ]
+
+    var mymap = L.map('mapid').setView([46.2014, 6.1411], 14);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoibGFydWNoZWlvIiwiYSI6ImNqc3RhZmp5OTE2NnozenBoYmtpZnhja2EifQ.hpMprRCDKRw3as_3_Sulbg'
+    }).addTo(mymap);
+
+    var myIcon = L.icon({
+        iconUrl: '/img/marker.png',
+        iconRetinaUrl: '/img/marker.png',
+        iconSize: [25, 41],
+        iconAnchor: [12.5, 41],
+        popupAnchor: [0, -36],
+        shadowUrl: '/img/marker-shadow.png',
+        shadowSize: [41, 41]
+    });
+
+    let markers = womens.map(woman => {
+      let marker = L.marker(woman.position, {icon: myIcon}).addTo(mymap)
+      // let marker = L.marker(woman.position).addTo(mymap)
+      marker.bindPopup(`<a href="/100femmes/${woman.slug}/"><b>${woman.name}</b></a><br>${woman.description}`)
+      return marker
+    })
+  </script>
   </body>
 </html>
