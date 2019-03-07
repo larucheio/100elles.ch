@@ -22,8 +22,6 @@
       crossorigin=""/>
     <link rel="stylesheet" href="/css/main.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91148813-5"></script>
@@ -40,49 +38,29 @@
   <body>
     <nav class="navbar navbar-light mb-5">
       <a class="navbar-brand" href="/">
-        <img src="/img/100elles-logo.svg" height="30" alt="100 Elles*">
+        <img src="/img/100elles-logo.svg" height="30" alt="100Elles* logo">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <button id="menu-toggler" class="navbar-toggler">
         <span class="navbar-toggler-icon"></span>
       </button>
+    </nav>
 
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Accueil</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Projet
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownProject">
-              <a class="dropdown-item" href="/projet/explications/">Explications</a>
-              <a class="dropdown-item" href="/projet/choix-des-noms/">Choix des noms</a>
-              <a class="dropdown-item" href="/projet/reflexions/">Réflexions</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/100femmes/">100 femmes*</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/visites-guidees/">Visites guidées</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/evenements/">Évènements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/partenaires/">Partenaires</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/lescouade/">L'Escouade</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/medias/">Médias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact/">Contact</a>
-          </li>
-        </ul>
+    <nav id="nav">
+      <a href="/" id="logo"><img src="/img/100elles-logo--white.svg" height="30" alt="100Elles* logo"></a>
+      <span id="close">X</span>
+      <div class="p-3 mt-6">
+        <a href="/">Accueil</a>
+        <a href="/projet/explications/">Projet</a>
+        <a href="/projet/explications/" class="ml-3">Explications</a>
+        <a href="/projet/choix-des-noms/" class="ml-3">Choix des noms</a>
+        <a href="/projet/reflexions/" class="ml-3">Réflexions</a>
+        <a href="/100femmes/">100 femmes*</a>
+        <a href="/visites-guidees/">Visites guidées</a>
+        <a href="/evenements/">Évènements</a>
+        <a href="/partenaires/">Partenaires</a>
+        <a href="/lescouade/">L'Escouade</a>
+        <a href="/medias/">Médias</a>
+        <a href="/contact/">Contact</a>
       </div>
     </nav>
 
@@ -98,6 +76,12 @@
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
 
   <script type="text/javascript">
+    $('#menu-toggler').on('click', function(){
+      $('body').toggleClass('open');
+    });
+    $('#close').on('click', function(){
+      $('body').removeClass('open');
+    });
 
     let womens = [
       {

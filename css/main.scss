@@ -28,6 +28,7 @@ $primary: #903373;
 $enable-responsive-font-sizes: true;
 
 @import "bootstrap/bootstrap";
+@import "menu";
 
 ul {
   list-style-image: url('/img/ul-icon.svg');
