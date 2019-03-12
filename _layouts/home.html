@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr-CH" dir="ltr">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include navbar.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA27T06HbMoNvcAxi7y1AFM23XFIc-dfxY&callback=initMap" type="text/javascript"></script>
+    <script src="/js/map.js" charset="utf-8"></script>
+  </body>
+</html>
