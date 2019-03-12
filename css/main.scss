@@ -31,6 +31,11 @@ $navbar-light-toggler-border-color: none;
 @import "bootstrap/bootstrap";
 @import "menu";
 
+::selection {
+  color: white;
+  background: $primary;
+}
+
 ul {
   list-style-image: url('/img/ul-icon.svg');
 }
