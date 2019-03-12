@@ -17,11 +17,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
-      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-      crossorigin=""/>
     <link rel="stylesheet" href="/css/main.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91148813-5"></script>
@@ -73,104 +69,33 @@
       </div>
     </footer>
 
-    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA27T06HbMoNvcAxi7y1AFM23XFIc-dfxY&callback=initMap" type="text/javascript"></script>
+    <script src="/js/map.js" charset="utf-8"></script>
 
-  <script type="text/javascript">
-    $('#menu-toggler').on('click', function(){
-      $('body').toggleClass('open');
-    });
-    $('#close').on('click', function(){
-      $('body').removeClass('open');
-    });
+    <script type="text/javascript">
+      var className = 'open'
+      var body = document.getElementsByTagName('body')[0]
+      var menuToggler = document.getElementById('menu-toggler')
+      var close = document.getElementById('close')
 
-    let womens = [
-      {
-        slug: 'marcelle-bard',
-        name: 'Marcelle BARD',
-        description: '1903-1988, Théologienne et pasteure',
-        position: [46.21012, 6.13734]
-      },
-      {
-        slug: 'henriette-bonna',
-        name: 'Henriette BONNA',
-        description: 'dite Baudichon, ~1510-~1537, Militante protestante',
-        position: [46.21126, 6.13752]
-      },
-      {
-        slug: 'yvonne-bovard',
-        name: 'Yvonne BOVARD',
-        description: '1902-1984, Violoniste',
-        position: [46.21038, 6.13968]
-      },
-      {
-        slug: 'josephine-butler',
-        name: 'Josephine BUTLER',
-        description: '1828-1906, Militante féministe et réformatrice sociale',
-        position: [46.21005, 6.13972]
-      },
-      {
-        slug: 'helene-gautier-pictet',
-        name: 'Hélène GAUTIER-PICTET',
-        description: '1888-1973, Fondatrice du Centre de liaison des associations féminines de Genève',
-        position: [46.21147, 6.14101]
-      },
-      {
-        slug: 'marie-louise-mignot',
-        name: 'Marie-Louise MIGNOT',
-        description: 'dite Madame Denis, 1712-1790, Salonnière',
-        position: [46.20792, 6.13700]
-      },
-      {
-        slug: 'paule-minck',
-        name: 'Paule MINCK',
-        description: '1839-1901, Femme de lettres, communarde et féministe',
-        position: [46.20997, 6.13920]
-      },
-      {
-        slug: 'jean-sindab',
-        name: 'Jean SINDAB',
-        description: '1944-1996, Internationaliste antiraciste et antisexiste',
-        position: [46.20937, 6.14045]
-      },
-      {
-        slug: 'camille-vidart',
-        name: 'Camille VIDART',
-        description: '1854-1930, Présidente de l’Union des femmes de Genève',
-        position: [46.21193, 6.13554]
-      },
-      {
-        slug: 'violeta-parra',
-        name: 'Violeta PARRA',
-        description: '1917-1967, Chanteuse et artiste plasticienne',
-        position: [46.20847, 6.13441]
+      function toggleMenu () {
+        if (body.classList) {
+          body.classList.toggle(className);
+        } else {
+          var classes = body.className.split(' ');
+          var existingIndex = classes.indexOf(className);
+
+          if (existingIndex >= 0)
+            classes.splice(existingIndex, 1);
+          else
+            classes.push(className);
+
+          body.className = classes.join(' ');
+        }
       }
-    ]
 
-    var mymap = L.map('mapid').setView([46.2014, 6.1411], 14);
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        maxZoom: 18,
-        id: 'mapbox.streets',
-        accessToken: 'pk.eyJ1IjoibGFydWNoZWlvIiwiYSI6ImNqc3RhZmp5OTE2NnozenBoYmtpZnhja2EifQ.hpMprRCDKRw3as_3_Sulbg'
-    }).addTo(mymap);
-
-    var myIcon = L.icon({
-        iconUrl: '/img/marker.png',
-        iconRetinaUrl: '/img/marker.png',
-        iconSize: [25, 41],
-        iconAnchor: [12.5, 41],
-        popupAnchor: [0, -36],
-        shadowUrl: '/img/marker-shadow.png',
-        shadowSize: [41, 41]
-    });
-
-    let markers = womens.map(woman => {
-      let marker = L.marker(woman.position, {icon: myIcon}).addTo(mymap)
-      // let marker = L.marker(woman.position).addTo(mymap)
-      // marker.bindPopup(`<a href="/100femmes/${woman.slug}/"><b>${woman.name}</b></a><br>${woman.description}`)
-      marker.bindPopup(`<b>${woman.name}</b><br>${woman.description}`)
-      return marker
-    })
-  </script>
+      menuToggler.addEventListener('click', toggleMenu)
+      close.addEventListener('click', toggleMenu)
+    </script>
   </body>
 </html>
