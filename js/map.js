@@ -45,7 +45,7 @@ var womens = [
   },
   {
     slug: 'jean-sindab',
-    name: 'Jean SINDAB',
+    name: 'Jean SINDAB Dr.',
     description: '1944-1996, Internationaliste antiraciste et antisexiste',
     position: { lat: 46.2096652, lng: 6.1403311 }
   },
