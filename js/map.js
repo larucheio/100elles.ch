@@ -59,7 +59,7 @@ var womens = [
     slug: 'violeta-parra',
     name: 'Violeta PARRA',
     description: '1917-1967, Chanteuse et artiste plasticienne',
-    position: { lat: 46.2088457, lng: 6.1359997 }
+    position: { lat: 46.208455934391594 , lng: 6.135307761579043 }
   }
 ]
 
