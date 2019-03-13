@@ -1,3 +1,7 @@
 url: "https://100elles.ch"
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+title: '100 Elles*'
+description: 'Les noms des rues à Genève: 548 hommes et 41 femmes.'
