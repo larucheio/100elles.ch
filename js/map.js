@@ -94,7 +94,7 @@ var womens = [
   {
     slug: 'una-marson',
     name: 'Una MARSON',
-    description: '1905-1965, Journaliste de la BBC',
+    description: '1905-1965, Journaliste et poétesse',
     position: { lat: 46.221131, lng: 6.140081 }
   },
   {
