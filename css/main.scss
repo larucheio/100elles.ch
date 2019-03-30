@@ -81,6 +81,10 @@ body {
   height: 800px;
 }
 
+.word-break-all {
+  word-break: break-all;
+}
+
 .card-femme {
   // font-weight: bold;
   display: flex;
@@ -93,6 +97,7 @@ body {
   min-height: 12rem;
   margin-bottom: 2rem;
   font-size: 2rem;
+  line-height: normal;
 
   background-repeat: no-repeat;
   background-size: cover;

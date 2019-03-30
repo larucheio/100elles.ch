@@ -60,6 +60,66 @@ var womens = [
     name: 'Violeta PARRA',
     description: '1917-1967, Chanteuse et artiste plasticienne',
     position: { lat: 46.208455934391594 , lng: 6.135307761579043 }
+  },
+  {
+    slug: 'marie-therese-maurette',
+    name: 'Marie-Thérèse MAURETTE',
+    description: '1890-1989, Directrice de l’École internationale de Genève',
+    position: { lat: 46.219381, lng: 6.134770 }
+  },
+  {
+    slug: 'helvi-sipila',
+    name: 'Helvi SIPILÄ',
+    description: '1915-2009, Fonctionnaire de l’ONU',
+    position: { lat: 46.222569, lng: 6.138753 }
+  },
+  {
+    slug: 'ceza-nabarawi',
+    name: 'Ceza NABARAWI',
+    description: '1897-1985, Rédactrice en cheffe de l’Égyptienne',
+    position: { lat: 46.220956, lng: 6.136695 }
+  },
+  {
+    slug: 'alexandra-kollontai',
+    name: 'Alexandra KOLLONTAÏ',
+    description: '1872-1952, Ambassadrice de l’URSS',
+    position: { lat: 46.222712, lng: 6.139897 }
+  },
+  {
+    slug: 'bertha-lutz',
+    name: 'Bertha LUTZ',
+    description: '1894-1976, Vice-présidente de la Commission interaméricaine des femmes',
+    position: { lat: 46.220934, lng: 6.141336 }
+  },
+  {
+    slug: 'una-marson',
+    name: 'Una MARSON',
+    description: '1905-1965, Journaliste et poétesse',
+    position: { lat: 46.221131, lng: 6.140081 }
+  },
+  {
+    slug: 'mary-mcgeachy',
+    name: 'Mary MCGEACHY',
+    description: '1901-1991, Fonctionnaire de l’UNRRA',
+    position: { lat: 46.220558, lng: 6.138369 }
+  },
+  {
+    slug: 'marguerite-frick-cramer',
+    name: 'Marguerite FRICK-CRAMER',
+    description: '1887-1963, Déléguée du CICR',
+    position: { lat: 46.219759, lng: 6.147618 }
+  },
+  {
+    slug: 'marguerite-thibert',
+    name: 'Marguerite THIBERT Dr.',
+    description: '1886-1982, Fonctionnaire du BIT',
+    position: { lat: 46.220685, lng: 6.140296 }
+  },
+  {
+    slug: 'mary-florence-wilson',
+    name: 'Mary-Florence WILSON',
+    description: '1884-1977, Bibliothécaire de la Société des Nations',
+    position: { lat: 46.222349, lng: 6.138297 }
   }
 ]
 
