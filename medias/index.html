@@ -27,4 +27,10 @@ layout: main
       </p>
     </div>
   </div>
+
+  <hr class="my-5">
+
+  {% for press_release in site.data.press_releases %}
+    {% include press_release.html press_release=press_release %}
+  {% endfor %}
 </main>
