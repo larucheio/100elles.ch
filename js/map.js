@@ -120,6 +120,66 @@ var womens = [
     name: 'Mary-Florence WILSON',
     description: '1884-1977, Bibliothécaire de la Société des Nations',
     position: { lat: 46.222349, lng: 6.138297 }
+  },
+  {
+    slug: 'maggy-breitmayer',
+    name: 'Maggy BREITTMAYER',
+    description: '1888-1961, Violoniste soliste',
+    position: { lat: 46.2009992, lng: 6.1415217 }
+  },
+  {
+    slug: 'clotilde-bressler-gianoli',
+    name: 'Clotilde BRESSLER-GIANOLI',
+    description: '1875-1912, Cantatrice',
+    position: { lat: 46.2007274, lng: 6.1428887 }
+  },
+  {
+    slug: 'genevieve-calame',
+    name: 'Geneviève CALAME',
+    description: '1946-1993, Musicienne',
+    position: { lat: 46.2013889, lng: 6.1422539 }
+  },
+  {
+    slug: 'louise-de-frotte',
+    name: 'Louise De FROTTÉ',
+    description: '1617-1692, Femme de lettres',
+    position: { lat: 46.201976, lng: 6.142144 }
+  },
+  {
+    slug: 'marcelle-de-kenzac',
+    name: 'Marcelle De KENZAC',
+    description: '1919-2009, Metteuse en scène',
+    position: { lat: 46.2022304, lng: 6.1413368 }
+  },
+  {
+    slug: 'la-flore-des-dames',
+    name: 'La Flore des Dames',
+    description: '1817, Groupe de copistes botanistes',
+    position: { lat: 46.1968724, lng: 6.146903 }
+  },
+  {
+    slug: 'marcelle-moynier',
+    name: 'Marcelle MOYNIER',
+    description: '1888-1980, Fondatrice du Théâtre des marionnettes de Genève',
+    position: { lat: 46.2017735, lng: 6.142289 }
+  },
+  {
+    slug: 'michelle-nicod',
+    name: 'Michelle NICOD',
+    description: '~1519-1618, Libraire-imprimeuse',
+    position: { lat: 46.2014622, lng: 6.14289 }
+  },
+  {
+    slug: 'jeanne-henriette-rath',
+    name: 'Jeanne-Henriette RATH',
+    description: '1773-1856, Peintre',
+    position: { lat: 46.201884, lng: 6.143314 }
+  },
+  {
+    slug: 'carole-roussopoulos',
+    name: 'Carole ROUSSOPOULOS',
+    description: '1945-2009, Vidéaste',
+    position: { lat: 46.201906, lng: 6.1434458 }
   }
 ]
 
