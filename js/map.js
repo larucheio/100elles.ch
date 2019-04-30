@@ -203,7 +203,7 @@ var womens = [
     slug: 'yolande-de-france',
     name: 'Yolande De FRANCE',
     description: '1434-1478, Duchesse et régente du duché de Savoie',
-    position: { lat: 46.2111878, lng: 6.1461757 }
+    position: { lat: 46.211454, lng: 6.1479556 }
   },
   {
     slug: 'rachel-crowdy',
