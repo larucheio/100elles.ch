@@ -180,6 +180,66 @@ var womens = [
     name: 'Carole ROUSSOPOULOS',
     description: '1945-2009, Vidéaste',
     position: { lat: 46.201906, lng: 6.1434458 }
+  },
+  {
+    slug: 'louise-boulaz',
+    name: 'Louise BOULAZ',
+    description: 'dite Loulou, 1908-1991, Alpiniste',
+    position: { lat: 46.2097076, lng: 6.1457829 }
+  },
+  {
+    slug: 'monique-bauer-lagie',
+    name: 'Monique BAUER-LAGIÉ',
+    description: '1922-2006, Conseillère nationale et conseillère aux États',
+    position: { lat: 46.2097338, lng: 6.1454063 }
+  },
+  {
+    slug: 'beatrice-de-portugal',
+    name: 'Béatrice De PORTUGAL',
+    description: '1504-1538, Duchesse de Savoie',
+    position: { lat: 46.2112358, lng: 6.1464372 }
+  },
+  {
+    slug: 'yolande-de-france',
+    name: 'Yolande De FRANCE',
+    description: '1434-1478, Duchesse et régente du duché de Savoie',
+    position: { lat: 46.2111878, lng: 6.1461757 }
+  },
+  {
+    slug: 'rachel-crowdy',
+    name: 'Rachel CROWDY',
+    description: '1884–1964, Fonctionnaire de la Société des Nations',
+    position: { lat: 46.2113763, lng: 6.1493629 }
+  },
+  {
+    slug: 'pearl-grobet-secretan',
+    name: 'Pearl GROBET-SECRÉTAN',
+    description: '1904-1988, Suffragiste',
+    position: { lat: 46.21155520151464, lng: 6.149425025797655 }
+  },
+  {
+    slug: 'victoire-tinayre',
+    name: 'Victoire TINAYRE',
+    description: '1831-1895, Institutrice et pédagogue',
+    position: { lat: 46.2145138, lng: 6.1497591 }
+  },
+  {
+    slug: 'dora-distria',
+    name: 'Dora D\'ISTRIA',
+    description: '1828-1888, Écrivaine',
+    position: { lat: 46.2161894, lng: 6.1479539 }
+  },
+  {
+    slug: 'elisabeth-de-wittelsbach',
+    name: 'Élisabeth De WITTELSBACH',
+    description: 'dite Sissi, 1837-1898, Impératrice d’Autriche et reine de Hongrie',
+    position: { lat: 46.20994495125272, lng: 6.151240974274515 }
+  },
+  {
+    slug: 'julienne-christine-piachaud',
+    name: 'Julienne-Christine PIACHAUD',
+    description: '1894-?, Fonctionnaire de la Société des Nations',
+    position: { lat: 46.21190236999755, lng: 6.152796947290767 }
   }
 ]
 
