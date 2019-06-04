@@ -240,7 +240,127 @@ var womens = [
     name: 'Julienne-Christine PIACHAUD',
     description: '1894-?, Fonctionnaire de la Société des Nations',
     position: { lat: 46.21190236999755, lng: 6.152796947290767 }
-  }
+  },
+  {
+    slug: 'marie-paula-lecompte',
+    name: 'Marie-Paula LECOMPTE',
+    description: 'dite Minnie, vers 1850 - ?, Journaliste',
+    position: { lat: 46.2068733, lng: 6.1469835 }
+  },
+  {
+    slug: 'virgine-barbet',
+    name: 'Virginie BARBET',
+    description: 'vers 1824 - ?, Militante anarchiste et kiosquière',
+    position: { lat: 46.2038937, lng: 6.1436196 }
+  },
+  {
+    slug: 'ouvrieres-horlogeres-de-geneve',
+    name: 'Des OUVRIERES HORLOGERES DE GENEVE',
+    description: '18ème-19ème siècles',
+    position: { lat: 46.204829700959536, lng: 6.145178220901471 }
+  },
+  {
+    slug: 'ekaterina-kouskova',
+    name: 'Ekaterina KOUSKOVA',
+    description: '1869-1958, Journaliste',
+    position: { lat: 46.2051929, lng: 6.1433848 }
+  },
+  {
+    slug: 'marjorie-duvillard',
+    name: 'Marjorie DUVILLARD',
+    description: '1911-2004, Infirmière et directrice de l\'école d\'infirmières de Genève',
+    position: { lat: 46.20390669438613, lng: 6.1437671214957845 }
+  },
+  {
+    slug: 'elisabeth-baulacre',
+    name: 'Élisabeth-BAULACRE',
+    description: '1613-1693, Cheffe d’entreprise',
+    position: { lat: 46.2038443, lng: 6.1458456 }
+  },
+  {
+    slug: 'trente-immortelles-de-geneve',
+    name: 'Des TRENTE IMMORTELLES DE GENEVE',
+    description: '1778-1798, Garantes de rentes viagères',
+    position: { lat: 46.2051291, lng: 6.1432261 }
+  },
+  {
+    slug: 'nelly-schreiber-favre',
+    name: 'Nelly SCHREIBER-FAVRE',
+    description: '1879-1972, Avocate',
+    position: { lat: 46.2027488, lng: 6.1465055 }
+  },
+  {
+    slug: 'anna-s',
+    name: 'Anna S.',
+    description: '?-1888, Prostituée',
+    position: { lat: 46.20277674014949, lng: 6.1487288076865525 }
+  },
+  {
+    slug: 'pauline-chaponniere-chaix',
+    name: 'Pauline CHAPONNIÈRE-CHAIX',
+    description: '1850-1934, Infirmière et présidente du Conseil international des femmes',
+    position: { lat: 46.2038607, lng: 6.1480029 }
+  },
+  {
+    slug: 'therese-pittard',
+    name: 'Thérèse PITTARD',
+    description: '1872-1969, Pédagogue et historienne',
+    position: { lat: 46.1936991, lng: 6.1417813 }
+  },
+  {
+    slug: 'marie-huber',
+    name: 'Marie HUBER',
+    description: '1695-1753, Théologienne',
+    position: { lat: 46.1975644, lng: 46.1975644 }
+  },
+  {
+    slug: 'germaine-duparc',
+    name: 'Germaine DUPARC',
+    description: '1916-2008, Anthropologue',
+    position: { lat: 46.1940027, lng: 6.1434479 }
+  },
+  {
+    slug: 'lina-stern',
+    name: 'Lina STERN',
+    description: '1878-1968, Médecin et biochimiste',
+    position: { lat: 46.1950256, lng: 6.143598 }
+  },
+  {
+    slug: 'jane-marcet',
+    name: 'Jane MARCET',
+    description: '1769-1858, Écrivaine et vulgarisatrice scientifique',
+    position: { lat: 46.1964285, lng: 6.1421093 }
+  },
+  {
+    slug: 'mina-audemars',
+    name: 'Mina AUDEMARS',
+    description: '1883-1971, Pédagogue',
+    position: { lat: 46.1955233, lng: 6.1411337 }
+  },
+  {
+    slug: 'marguerite-dellenbach',
+    name: 'Marguerite DELLENBACH',
+    description: '1905-1993, Directrice de musée et ethnologue',
+    position: { lat: 46.19879425253609, lng: 6.137236581545267 }
+  },
+  {
+    slug: 'jeanne-hersch',
+    name: 'Jeanne HERSCH',
+    description: '1910-2000, Philosophe',
+    position: { lat: 46.1957239, lng: 6.1401974 }
+  },
+  {
+    slug: 'henriette-saloz-joudra',
+    name: 'Henriette SALOZ-JOUDRA',
+    description: '1855-1928, Médecin',
+    position: { lat: 46.1962039, lng: 6.1372663 }
+  },
+  {
+    slug: 'kitty-ponse',
+    name: 'Kitty PONSE',
+    description: '1897-1978, Biologiste',
+    position: { lat: 46.198066, lng: 6.1435296 }
+  },
 ]
 
 function initMap() {
