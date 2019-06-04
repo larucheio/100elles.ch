@@ -273,7 +273,7 @@ var womens = [
   },
   {
     slug: 'elisabeth-baulacre',
-    name: 'Élisabeth-BAULACRE',
+    name: 'Élisabeth BAULACRE',
     description: '1613-1693, Cheffe d’entreprise',
     position: { lat: 46.2038443, lng: 6.1458456 }
   },
