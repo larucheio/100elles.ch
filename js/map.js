@@ -361,6 +361,66 @@ var womens = [
     description: '1897-1978, Biologiste',
     position: { lat: 46.198066, lng: 6.1435296 }
   },
+  {
+    slug: 'caroline-boissier-butini',
+    name: 'Caroline BOISSIER-BUTINI',
+    description: '1786-1836, Pianiste et compositrice',
+    position: { lat: 46.1998592, lng: 6.1289801 }
+  },
+  {
+    slug: 'ruth-bosiger',
+    name: 'Ruth BÖSIGER',
+    description: 'dite Coucou, 1907-1990, Vendeuse et militante anarchiste',
+    position: { lat: 46.2035412, lng: 6.1389273 }
+  },
+  {
+    slug: 'elise-cabossel',
+    name: 'Élise CABOSSEL',
+    description: '1900-1982, Syndicaliste',
+    position: { lat: 46.2025, lng: 6.137809999999945 }
+  },
+  {
+    slug: 'yvonne-elles',
+    name: 'Yvonne ELLES',
+    description: 'novembre 1961, Ménagère et candidate au Grand Conseil de Genève',
+    position: { lat: 46.2019533, lng: 6.1310801 }
+  },
+  {
+    slug: 'lucette-leuba',
+    name: 'Lucette LEUBA',
+    description: 'novembre 1961, Ouvrière, syndicaliste et candidate au Grand Conseil de Genève',
+    position: { lat: 46.2027, lng: 6.128770000000031 }
+  },
+  {
+    slug: 'elna-palme-dutt',
+    name: 'Elna PALME-DUTT',
+    description: '1891-1982, Statisticienne et traductrice',
+    position: { lat: 46.2011365, lng: 6.1295206 }
+  },
+  {
+    slug: 'griselidis-real',
+    name: 'Grisélidis RÉAL',
+    description: '1929-2005, Écrivaine et prostituée',
+    position: { lat: 46.2011884, lng: 6.1375706 }
+  },
+  {
+    slug: 'noelle-roger',
+    name: 'Noëlle ROGER',
+    description: '1874-1953, Journaliste et écrivaine',
+    position: { lat: 46.2040795, lng: 6.1388633 }
+  },
+  {
+    slug: 'trois-blanchisseuses',
+    name: 'TROIS BLANCHISSEUSES',
+    description: 'Décédées le 1er aout 1913',
+    position: { lat: 46.204161, lng: 6.138896 }
+  },
+  {
+    slug: 'louisa-vuille',
+    name: 'Louisa VUILLE',
+    description: '1901-1994, Ouvrière horlogère et syndicaliste',
+    position: { lat: 46.20406, lng: 6.136363 }
+  },
 ]
 
 function initMap() {
