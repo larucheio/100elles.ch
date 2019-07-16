@@ -421,6 +421,66 @@ var womens = [
     description: '1901-1994, Ouvrière horlogère et syndicaliste',
     position: { lat: 46.20406, lng: 6.136363 }
   },
+  {
+    slug: 'louise-sarrasin',
+    name: 'Louise SARRASIN',
+    description: '1551-1623, Femme de lettres',
+    position: { lat: 46.199716122213246, lng: 6.1513747313202884 }
+  },
+  {
+    slug: 'lise-girardin',
+    name: 'Lise GIRARDIN',
+    description: '1921-2010, Maire de Genève',
+    position: { lat: 46.2008373, lng: 6.1466125 }
+  },
+  {
+    slug: 'anna-eynard-lullin',
+    name: 'Anna EYNARD-LULLIN',
+    description: '1793-1868, Diplomate et philanthrope',
+    position: { lat: 46.2011, lng: 6.144999999999982 }
+  },
+  {
+    slug: 'renee-burlamacchi',
+    name: 'Renée BURLAMACCHI',
+    description: '1568-1641, Mémorialiste',
+    position: { lat: 46.2014, lng: 6.149260000000027 }
+  },
+  {
+    slug: 'idelette-de-bure',
+    name: 'Idelette De BURE',
+    description: '~1505-1549, Gestionnaire du ménage Calvin',
+    position: { lat: 46.20221162276705, lng: 6.146077955225337 }
+  },
+  {
+    slug: 'george-eliot',
+    name: 'George ELIOT',
+    description: '1819-1880, Écrivaine',
+    position: { lat: 46.20219491518313, lng: 6.145943844774592 }
+  },
+  {
+    slug: 'madeleine-barot',
+    name: 'Madeleine BAROT',
+    description: '1909-1995, Archiviste-bibliothécaire et résistante',
+    position: { lat: 46.201577, lng: 6.1452174 }
+  },
+  {
+    slug: 'claudine-levet',
+    name: 'Claudine LEVET',
+    description: 'aout 1535, Prédicatrice protestante',
+    position: { lat: 46.200771, lng: 6.1484938 }
+  },
+  {
+    slug: 'annie-jiagge',
+    name: 'Annie JIAGGE',
+    description: '1918-1996, Magistrate et internationaliste',
+    position: { lat: 46.2022545, lng: 6.1509015 }
+  },
+  {
+    slug: 'theodelinde',
+    name: 'THÉODELINDE',
+    description: '~500, Reine burgonde',
+    position: { lat: 46.2012612, lng: 6.1468905 }
+  },
 ]
 
 function initMap() {
