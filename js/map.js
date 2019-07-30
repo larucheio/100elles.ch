@@ -481,6 +481,66 @@ var womens = [
     description: '~500, Reine burgonde',
     position: { lat: 46.2012612, lng: 6.1468905 }
   },
+  {
+    slug: 'julia-chamorel',
+    name: 'Julia CHAMOREL',
+    description: '1916-2009, Écrivaine',
+    position: { lat: 46.2045233, lng: 6.1595419 }
+  },
+  {
+    slug: 'ekaterina-dachkova',
+    name: 'Ekaterina DACHKOVA',
+    description: '1743-1810, Princesse, diplomate et académicienne',
+    position: { lat: 46.203035, lng: 6.1570022 }
+  },
+  {
+    slug: 'anne-de-lusignan',
+    name: 'Anne De LUSIGNAN',
+    description: '1418-1462, Duchesse de Savoie et fondatrice d’une chapelle au couvent de Rive',
+    position: { lat: 46.2019, lng: 6.15337999999997 }
+  },
+  {
+    slug: 'maria-edgeworth',
+    name: 'Maria EDGEWORTH',
+    description: '1767-1849, Écrivaine',
+    position: { lat: 46.2011322, lng: 6.1524539 }
+  },
+  {
+    slug: 'alice-favre',
+    name: 'Alice FAVRE',
+    description: '1851-1929, Présidente de la Croix-Rouge genevoise',
+    position: { lat: 46.2015, lng: 6.159509999999955 }
+  },
+  {
+    slug: 'lee-ya-ching',
+    name: 'LEE Ya-Ching',
+    description: '1912-1998, Actrice et aviatrice',
+    position: { lat: 46.2005307, lng: 6.1583773 }
+  },
+  {
+    slug: 'marie-sidonia-de-lenoncourt',
+    name: 'Marie-Sidonia De LENONCOURT',
+    description: '1650-1685, Aventurière et mémorialiste',
+    position: { lat: 46.2022545, lng: 6.1509015 }
+  },
+  {
+    slug: 'albertine-necker-de-saussure',
+    name: 'Albertine NECKER De SAUSSURE',
+    description: '1766-1841, Écrivaine et pédagogue',
+    position: { lat: 46.2049745, lng: 6.1579936 }
+  },
+  {
+    slug: 'alice-emilie-noerbel-bertrand',
+    name: 'Alice Émilie NOERBEL BERTRAND',
+    description: '1872-1941, Missionnaire et philanthrope',
+    position: { lat: 46.2009, lng: 6.159819999999968 }
+  },
+  {
+    slug: 'mary-wollstonecraft-godwin',
+    name: 'Mary WOLLSTONECRAFT GODWIN',
+    description: 'Mary-SHELLEY, 1797-1851, Écrivaine',
+    position: { lat: 46.2076006, lng: 6.1634618 }
+  },
 ]
 
 function initMap() {
