@@ -541,6 +541,66 @@ var womens = [
     description: 'Mary-SHELLEY, 1797-1851, Écrivaine',
     position: { lat: 46.2076006, lng: 6.1634618 }
   },
+  {
+    slug: 'jeanne-baud',
+    name: 'Jeanne BAUD',
+    description: 'dite Dame PIAGET, ~1570-1630, Héroïne de l’Escalade',
+    position: { lat: 46.206584777892125, lng: 6.140509111641904 }
+  },
+  {
+    slug: 'cecile-bieler-butticaz',
+    name: 'Cécile BIÉLER-BUTTICAZ',
+    description: '1884-1966, Ingénieure',
+    position: { lat: 46.2066518, lng: 6.1441058 }
+  },
+  {
+    slug: 'barbara-borsinger',
+    name: 'Barbara BORSINGER',
+    description: '1892-1973, Infirmière et fondatrice de la clinique des Grangettes',
+    position: { lat: 46.208053360353475, lng: 6.146712245368917 }
+  },
+  {
+    slug: 'eva-evdokimova',
+    name: 'Eva EVDOKIMOVA',
+    description: '1948-2009, Danseuse',
+    position: { lat: 46.20759608551177, lng: 6.143344213491787 }
+  },
+  {
+    slug: 'marie-goegg-pouchoulin',
+    name: 'Marie GOEGG-POUCHOULIN',
+    description: '1826-1899, Militante féministe et fondatrice du <i>Journal des femmes</i>',
+    position: { lat: 46.20870580227565, lng: 6.147412098217046 }
+  },
+  {
+    slug: 'eglantyne-jebb',
+    name: 'Eglantyne JEBB',
+    description: '1876-1928, Philanthrope',
+    position: { lat: 46.20677468205677, lng: 6.141233622404343 }
+  },
+  {
+    slug: 'audre-lorde',
+    name: 'Audre LORDE',
+    description: '1934-1992, Écrivaine, poétesse et activiste lesbienne',
+    position: { lat: 46.207481, lng: 6.1433764 }
+  },
+  {
+    slug: 'helene-de-mandrot',
+    name: 'Hélène De MANDROT',
+    description: '1867-1948, Artiste et mécène',
+    position: { lat: 46.2066376, lng: 6.13931 }
+  },
+  {
+    slug: 'simone-rapin',
+    name: 'Simone RAPIN',
+    description: '1901-1988, Écrivaine',
+    position: { lat: 46.2071013, lng: 6.1410763 }
+  },
+  {
+    slug: 'elisabeth-de-stoutz',
+    name: 'Élisabeth De STOUTZ',
+    description: '1854-1917, Peintre et écrivaine',
+    position: { lat: 46.2070628, lng: 6.1439522 }
+  }
 ]
 
 function initMap() {
