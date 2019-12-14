@@ -1,53 +1,7 @@
 ---
 ---
 
-/* eb-garamond-regular - latin */
-@font-face {
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 400;
-  src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
-       url('../fonts/eb-garamond-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/eb-garamond-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* eb-garamond-700 - latin */
-@font-face {
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 700;
-  src: local('EB Garamond Bold'), local('EBGaramond-Bold'),
-       url('../fonts/eb-garamond-v10-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/eb-garamond-v10-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-$spacer: 1rem !default;
-$spacers: () !default;
-// stylelint-disable-next-line scss/dollar-variable-default
-$spacers: map-merge(
-  (
-    0: 0,
-    1: ($spacer * .25),
-    2: ($spacer * .5),
-    3: $spacer,
-    4: ($spacer * 1.5),
-    5: ($spacer * 3),
-    6: ($spacer * 6),
-    7: ($spacer * 8)
-  ),
-  $spacers
-);
-
-$font-family-sans-serif:      'Arial', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-serif:           'EB Garamond', 'TimesNewRomanPSMT', 'Times New Roman', serif !default;
-$font-size-base:              1.15rem !default; // Assumes the browser default, typically `16px`
-
-$primary: #903373;
-$secondary: #17b899;
-
-$headings-color: $secondary;
-
-$enable-responsive-font-sizes: true;
-$navbar-light-toggler-border-color: none;
+@import "variables";
 
 @import "bootstrap/bootstrap";
 @import "menu";
