@@ -42,6 +42,9 @@ $font-family-serif:           'EB Garamond', 'TimesNewRomanPSMT', 'Times New Rom
 $font-size-base:              1.15rem !default; // Assumes the browser default, typically `16px`
 
 $primary: #903373;
+$secondary: #17b899;
+
+$headings-color: $secondary;
 
 $enable-responsive-font-sizes: true;
 $navbar-light-toggler-border-color: none;
