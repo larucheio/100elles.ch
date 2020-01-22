@@ -787,7 +787,7 @@ function initMap() {
     });
 
     marker.addListener('click', function() {
-      infowindow.setContent(`<b>${woman.name}</b><br>${woman.description}<br></br><a href="/100femmes/${woman.slug}/"><b>En savoir plus ˃</b></a>`)
+      infowindow.setContent(`<b>${woman.name}</b><br>${woman.description}<br></br><a href="/biographies/${woman.slug}/"><b>En savoir plus ˃</b></a>`)
       infowindow.open(map, marker);
     });
     return marker
