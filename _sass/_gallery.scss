@@ -2,6 +2,14 @@
   width: 100%;
 }
 
+.pswp__caption__center {
+  max-width: none !important;
+}
+
+.photo-gallery figcaption {
+  display: none;
+}
+
 .photo-gallery--multi-column {
   column-count: 1;
   column-gap: 10px;
