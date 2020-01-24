@@ -1,0 +1,20 @@
+.thumbnail {
+  width: 100%;
+}
+
+.photo-gallery--multi-column {
+  column-count: 1;
+  column-gap: 10px;
+}
+
+@media (min-width: 800px) {
+  .photo-gallery--multi-column {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .photo-gallery--multi-column {
+    column-count: 3;
+  }
+}

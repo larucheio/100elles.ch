@@ -1,0 +1,43 @@
+images:
+  - name: bastions-de-l-egalite1.jpg
+    width: '720'
+    height: '960'
+  - name: bastions-de-l-egalite2.jpg
+    width: '1236'
+    height: '1236'
+  - name: inaug1.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug2.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug3.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug4.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug5.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug6.jpg
+    width: '640'
+    height: '960'
+  - name: inaug7.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug8.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug9.jpg
+    width: '640'
+    height: '960'
+  - name: inaug10.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug11.jpg
+    width: '2048'
+    height: '1365'
+  - name: inaug12.jpg
+    width: '2048'
+    height: '1365'
