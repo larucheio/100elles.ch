@@ -71,3 +71,15 @@ figcaption {
   text-decoration: none;
   color: white;
 }
+
+.visites_guidees__background {
+  background-image: url('/img/visites_guidees/map.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.1;
+  background-size: cover;
+}
