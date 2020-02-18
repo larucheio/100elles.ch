@@ -15,29 +15,3 @@
     <img src="/img/subventionne-par-la-ville-de-geneve.svg" height="50" alt="Subventionné par la ville de Genève">
   </div>
 </footer>
-
-<script type="text/javascript">
-  var className = 'open'
-  var body = document.getElementsByTagName('body')[0]
-  var menuToggler = document.getElementById('menu-toggler')
-  var close = document.getElementById('close')
-
-  function toggleMenu () {
-    if (body.classList) {
-      body.classList.toggle(className);
-    } else {
-      var classes = body.className.split(' ');
-      var existingIndex = classes.indexOf(className);
-
-      if (existingIndex >= 0)
-        classes.splice(existingIndex, 1);
-      else
-        classes.push(className);
-
-      body.className = classes.join(' ');
-    }
-  }
-
-  // menuToggler.addEventListener('click', toggleMenu)
-  // close.addEventListener('click', toggleMenu)
-</script>
