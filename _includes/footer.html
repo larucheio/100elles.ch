@@ -1,32 +1,17 @@
 <footer class="bg-light">
   <div class="container py-5">
+    <h1 class="lead text-dark mb-4">Contact</h1>
+    <a href="mailto:lescouade.geneve@gmail.com" class="social-link">
+      <img src="/img/icons/mail.svg" alt="" height="60px">
+    </a>
+    <a href="https://www.facebook.com/lescouadegenevoise/" class="social-link">
+      <img src="/img/icons/facebook.svg" alt="" height="60px">
+    </a>
+    <a href="https://www.instagram.com/lescouade.geneve/" class="social-link">
+      <img src="/img/icons/instagram.svg" alt="" height="60px">
+    </a>
+    <hr class="my-5">
     <a href="https://lescouade.ch/" class="pr-5"><img src="/img/lescouade-logo.svg" height="50" alt="L'Escouade"></a>
     <img src="/img/subventionne-par-la-ville-de-geneve.svg" height="50" alt="Subventionné par la ville de Genève">
   </div>
 </footer>
-
-<script type="text/javascript">
-  var className = 'open'
-  var body = document.getElementsByTagName('body')[0]
-  var menuToggler = document.getElementById('menu-toggler')
-  var close = document.getElementById('close')
-
-  function toggleMenu () {
-    if (body.classList) {
-      body.classList.toggle(className);
-    } else {
-      var classes = body.className.split(' ');
-      var existingIndex = classes.indexOf(className);
-
-      if (existingIndex >= 0)
-        classes.splice(existingIndex, 1);
-      else
-        classes.push(className);
-
-      body.className = classes.join(' ');
-    }
-  }
-
-  menuToggler.addEventListener('click', toggleMenu)
-  close.addEventListener('click', toggleMenu)
-</script>

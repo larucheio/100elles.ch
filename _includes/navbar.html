@@ -1,27 +1,81 @@
-<nav class="navbar navbar-light mb-5">
+<nav class="navbar navbar-light navbar-expand-xl mb-4">
   <a class="navbar-brand" href="/">
     <img src="/img/100elles-logo-squared.svg" height="60" alt="100Elles* logo">
   </a>
-  <button id="menu-toggler" class="navbar-toggler">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-</nav>
 
-<nav id="nav">
-  <a href="/" id="logo"><img src="/img/100elles-logo-squared--white.svg" height="60" alt="100Elles* logo"></a>
-  <span id="close">X</span>
-  <div class="p-3 mt-6">
-    <a href="/">Accueil</a>
-    <a href="/projet/explications/">Projet</a>
-    <a href="/projet/explications/" class="ml-3">Explications</a>
-    <a href="/projet/choix-des-noms/" class="ml-3">Choix des noms</a>
-    <a href="/projet/reflexions/" class="ml-3">Réflexions</a>
-    <a href="/100femmes/">100 femmes*</a>
-    <a href="/visites-guidees/">Visites guidées</a>
-    <a href="/evenements/">Évènements</a>
-    <a href="/partenaires/">Partenaires</a>
-    <a href="/lescouade/">L'Escouade</a>
-    <a href="/medias/">Médias</a>
-    <a href="/contact/">Contact</a>
+  <div class="collapse navbar-collapse" id="navbarToggler">
+    <nav class="navbar">
+      <a class="navbar-brand" href="/">
+        <img src="/img/100elles-logo-squared--white.svg" height="60" alt="100Elles* logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-toggler-icon--white"></span>
+      </button>
+    </nav>
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Le projet
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownProject">
+          <a class="dropdown-item" href="/projet/genese/">Genèse</a>
+          <a class="dropdown-item" href="/projet/choix-des-noms/">Choix des noms</a>
+          <a class="dropdown-item" href="/projet/reflexions/">Réflexions</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEscouade" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          L'escouade
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownEscouade">
+          <a class="dropdown-item" href="/lescouade/association/">L'association</a>
+          <a class="dropdown-item" href="/lescouade/equipe/">L'équipe</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBio" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Biographies
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownBio">
+          <a class="dropdown-item" href="/biographies/#grottes">Grottes</a>
+          <a class="dropdown-item" href="/biographies/#nations">Nations</a>
+          <a class="dropdown-item" href="/biographies/#banques">Banques</a>
+          <a class="dropdown-item" href="/biographies/#paquis">Pâquis</a>
+          <a class="dropdown-item" href="/biographies/#plainpalais">Plainpalais</a>
+          <a class="dropdown-item" href="/biographies/#bel-air">Bel-air</a>
+          <a class="dropdown-item" href="/biographies/#jonction">Jonction</a>
+          <a class="dropdown-item" href="/biographies/#vieille-ville">Vieille-Ville</a>
+          <a class="dropdown-item" href="/biographies/#eaux-vives">Eaux-Vives</a>
+          <a class="dropdown-item" href="/biographies/#cornavin">Cornavin</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownVisitesGuidees" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Visites guidées
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownVisitesGuidees">
+          <a class="dropdown-item" href="/visites-guidees/a-venir/">À venir</a>
+          <a class="dropdown-item" href="/visites-guidees/passees/">Passées</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/partenaires-collaboration-evenements/">Partenaires, collaboration & évènements</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/medias/">Médias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/galerie/">Galerie</a>
+      </li>
+    </ul>
   </div>
 </nav>
+
+<script type="text/javascript">
+  $('.dropdown-item').click(function () {
+    $('#navbarToggler').collapse('hide')
+  })
+</script>

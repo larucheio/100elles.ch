@@ -5,6 +5,8 @@
 
 @import "bootstrap/bootstrap";
 @import "menu";
+@import "home";
+@import "gallery";
 
 ::selection {
   color: white;
@@ -52,7 +54,7 @@ figcaption {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: $primary;
+  background-color: rgba($primary, .5);
   color: white;
   padding: 1rem;
   min-height: 12rem;
@@ -68,4 +70,28 @@ figcaption {
 .card-femme:hover {
   text-decoration: none;
   color: white;
+}
+
+.visites_guidees__background {
+  background-image: url('/img/visites_guidees/map.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.1;
+  background-size: cover;
+}
+
+.social-link:hover {
+  text-decoration: none;
+}
+
+.punchline {
+  font-family: Arial, sans-serif;
+  color: $primary;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: normal;
 }

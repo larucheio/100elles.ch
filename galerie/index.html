@@ -1,0 +1,25 @@
+---
+layout: main
+---
+
+<main class="container my-lg-7">
+  <h1>Galerie</h1>
+
+  <!-- Gallery -->
+  <div class="photo-gallery photo-gallery--multi-column" itemscope itemtype="http://schema.org/ImageGallery">
+
+    {% for image in site.data.gallery.images %}
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="/img/galerie/{{ image.name }}" itemprop="contentUrl" data-size="{{ image.width }}x{{ image.height }}">
+          <img src="/img/galerie/{{ image.name }}" itemprop="thumbnail" class="thumbnail" />
+        </a>
+        {% if image.caption %}
+          <figcaption itemprop="caption description">{{ image.caption }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+
+  </div>
+</main>
+
+{% include photoswipe.html %}

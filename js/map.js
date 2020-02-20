@@ -604,11 +604,29 @@ var womens = [
 ]
 
 function initMap() {
+
+  var isBioPage = window.location.href.includes('biographies')
+  var womanSlug = null
+  if (isBioPage) {
+    var x = window.location.href.split('/')
+    womanSlug = x[x.length-2]
+  }
+
+  var filteredWomens = womens
+  var center = { lat: 46.2062588, lng: 6.1409799 }
+  var zoom = 14
+  if (isBioPage) {
+    filteredWomens = womens.filter(woman => woman.slug === womanSlug)
+    center = filteredWomens[0].position
+    zoom = 18
+  }
+
+
   var map = new google.maps.Map(
       document.getElementById('map'),
       {
-        zoom: 14,
-        center: { lat: 46.2062588, lng: 6.1409799 },
+        zoom: zoom,
+        center: center,
         styles: [
           {
             "elementType": "geometry",
@@ -779,17 +797,19 @@ function initMap() {
 
   var infowindow = new google.maps.InfoWindow();
 
-  var markers = womens.map(woman => {
+  var markers = filteredWomens.map(woman => {
     var marker = new google.maps.Marker({
       position: woman.position,
       map: map,
       icon: icon
     });
 
-    marker.addListener('click', function() {
-      infowindow.setContent(`<b>${woman.name}</b><br>${woman.description}<br></br><a href="/100femmes/${woman.slug}/"><b>En savoir plus ˃</b></a>`)
-      infowindow.open(map, marker);
-    });
+    if (!isBioPage) {
+      marker.addListener('click', function() {
+        infowindow.setContent(`<b>${woman.name}</b><br>${woman.description}<br></br><a href="/biographies/${woman.slug}/"><b>En savoir plus ˃</b></a>`)
+        infowindow.open(map, marker);
+      });
+    }
     return marker
   })
 }
