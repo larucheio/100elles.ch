@@ -4,7 +4,7 @@ var womens = [
   {
     slug: 'marcelle-bard',
     name: 'Marcelle BARD',
-    description: '1903-1988, Théologienne et pasteure',
+    description: '1903-1988, théologienne et pasteure',
     position: { lat: 46.208515, lng: 6.1409275 }
   },
   {
@@ -250,7 +250,7 @@ var womens = [
   {
     slug: 'virgine-barbet',
     name: 'Virginie BARBET',
-    description: 'vers 1824 - ?, Militante anarchiste et kiosquière',
+    description: 'vers 1824- ?, militante anarchiste et kiosquière',
     position: { lat: 46.2038937, lng: 6.1436196 }
   },
   {
@@ -334,7 +334,7 @@ var womens = [
   {
     slug: 'mina-audemars',
     name: 'Mina AUDEMARS',
-    description: '1883-1971, Pédagogue',
+    description: '1883-1971, pédagogue',
     position: { lat: 46.1955233, lng: 6.1411337 }
   },
   {
