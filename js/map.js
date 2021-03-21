@@ -10,19 +10,19 @@ var womens = [
   {
     slug: 'henriette-bonna',
     name: 'Henriette BONNA',
-    description: 'dite Baudichon, ~1510-~1537, Militante protestante',
+    description: 'dite Baudichon, ~1500-~1537, militante protestante',
     position: { lat: 46.2114339, lng: 6.1378444 }
   },
   {
     slug: 'yvonne-bovard',
     name: 'Yvonne BOVARD',
-    description: '1902-1984, Violoniste',
+    description: '1902-1984, violoniste',
     position: { lat: 46.2115083, lng: 6.1399824 }
   },
   {
     slug: 'josephine-butler',
     name: 'Josephine BUTLER',
-    description: '1828-1906, Militante féministe et réformatrice sociale',
+    description: '1828-1906, militante féministe et réformatrice sociale',
     position: { lat: 46.2102772, lng: 6.1398087 }
   },
   {
@@ -124,19 +124,19 @@ var womens = [
   {
     slug: 'maggy-breitmayer',
     name: 'Maggy BREITTMAYER',
-    description: '1888-1961, Violoniste soliste',
+    description: '1888-1961, violoniste soliste',
     position: { lat: 46.2009992, lng: 6.1415217 }
   },
   {
     slug: 'clotilde-bressler-gianoli',
     name: 'Clotilde BRESSLER-GIANOLI',
-    description: '1875-1912, Cantatrice',
+    description: '1872-1912, cantatrice',
     position: { lat: 46.2007274, lng: 6.1428887 }
   },
   {
     slug: 'genevieve-calame',
     name: 'Geneviève CALAME',
-    description: '1946-1993, Musicienne',
+    description: '1946-1993, musicienne',
     position: { lat: 46.2013889, lng: 6.1422539 }
   },
   {
@@ -184,13 +184,13 @@ var womens = [
   {
     slug: 'louise-boulaz',
     name: 'Louise BOULAZ',
-    description: 'dite Loulou, 1908-1991, Alpiniste',
+    description: 'dite Loulou, 1908-1991, alpiniste',
     position: { lat: 46.2097076, lng: 6.1457829 }
   },
   {
-    slug: 'monique-bauer-lagie',
-    name: 'Monique BAUER-LAGIÉ',
-    description: '1922-2006, Conseillère nationale et conseillère aux États',
+    slug: 'monique-bauer-lagier',
+    name: 'Monique BAUER-LAGIER',
+    description: '1922-2006, conseillère nationale et conseillère aux États',
     position: { lat: 46.2097338, lng: 6.1454063 }
   },
   {
@@ -274,7 +274,7 @@ var womens = [
   {
     slug: 'elisabeth-baulacre',
     name: 'Élisabeth BAULACRE',
-    description: '1613-1693, Cheffe d’entreprise',
+    description: '1613-1693, cheffe d’entreprise',
     position: { lat: 46.2038443, lng: 6.1458456 }
   },
   {
@@ -364,19 +364,19 @@ var womens = [
   {
     slug: 'caroline-boissier-butini',
     name: 'Caroline BOISSIER-BUTINI',
-    description: '1786-1836, Pianiste et compositrice',
+    description: '1786-1836, pianiste et compositrice',
     position: { lat: 46.1998592, lng: 6.1289801 }
   },
   {
     slug: 'ruth-bosiger',
     name: 'Ruth BÖSIGER',
-    description: 'dite Coucou, 1907-1990, Vendeuse et militante anarchiste',
+    description: 'dite Coucou, 1907-1990, vendeuse et militante anarchiste',
     position: { lat: 46.2035412, lng: 6.1389273 }
   },
   {
     slug: 'elise-cabossel',
     name: 'Élise CABOSSEL',
-    description: '1900-1982, Syndicaliste',
+    description: '1900-1982, syndicaliste',
     position: { lat: 46.2025, lng: 6.137809999999945 }
   },
   {
@@ -442,13 +442,13 @@ var womens = [
   {
     slug: 'renee-burlamacchi',
     name: 'Renée BURLAMACCHI',
-    description: '1568-1641, Mémorialiste',
+    description: '1568-1641, mémorialiste',
     position: { lat: 46.2014, lng: 6.149260000000027 }
   },
   {
     slug: 'idelette-de-bure',
     name: 'Idelette De BURE',
-    description: '~1505-1549, Gestionnaire du ménage Calvin',
+    description: '~1505-1549, gestionnaire du ménage Calvin',
     position: { lat: 46.20221162276705, lng: 6.146077955225337 }
   },
   {
@@ -460,7 +460,7 @@ var womens = [
   {
     slug: 'madeleine-barot',
     name: 'Madeleine BAROT',
-    description: '1909-1995, Archiviste-bibliothécaire et résistante',
+    description: '1909-1995, archiviste-bibliothécaire et résistante',
     position: { lat: 46.201577, lng: 6.1452174 }
   },
   {
@@ -484,7 +484,7 @@ var womens = [
   {
     slug: 'julia-chamorel',
     name: 'Julia CHAMOREL',
-    description: '1916-2009, Écrivaine',
+    description: '1916-2009, écrivaine',
     position: { lat: 46.2045233, lng: 6.1595419 }
   },
   {
@@ -544,19 +544,19 @@ var womens = [
   {
     slug: 'jeanne-baud',
     name: 'Jeanne BAUD',
-    description: 'dite Dame PIAGET, ~1570-1630, Héroïne de l’Escalade',
+    description: 'dite Dame Piaget, ~1570-1630, héroïne de l’Escalade',
     position: { lat: 46.206584777892125, lng: 6.140509111641904 }
   },
   {
     slug: 'cecile-bieler-butticaz',
     name: 'Cécile BIÉLER-BUTTICAZ',
-    description: '1884-1966, Ingénieure',
+    description: '1884-1966, ingénieure',
     position: { lat: 46.2066518, lng: 6.1441058 }
   },
   {
     slug: 'barbara-borsinger',
     name: 'Barbara BORSINGER',
-    description: '1892-1973, Infirmière et fondatrice de la clinique des Grangettes',
+    description: '1892-1973, infirmière et fondatrice de la clinique des Grangettes',
     position: { lat: 46.208053360353475, lng: 6.146712245368917 }
   },
   {
