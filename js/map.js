@@ -152,9 +152,9 @@ var womens = [
     position: { lat: 46.2022304, lng: 6.1413368 }
   },
   {
-    slug: 'la-flore-des-dames',
-    name: 'La Flore des Dames',
-    description: '1817, Groupe de copistes botanistes',
+    slug: 'flore-des-dames',
+    name: 'Flore des Dames',
+    description: '1817, groupe de copistes botanistes',
     position: { lat: 46.1968724, lng: 6.146903 }
   },
   {
@@ -208,7 +208,7 @@ var womens = [
   {
     slug: 'rachel-crowdy',
     name: 'Rachel CROWDY',
-    description: '1884–1964, Fonctionnaire de la Société des Nations',
+    description: '1884-1964, fonctionnaire de la Société des Nations',
     position: { lat: 46.2113763, lng: 6.1493629 }
   },
   {
@@ -268,7 +268,7 @@ var womens = [
   {
     slug: 'marjorie-duvillard',
     name: 'Marjorie DUVILLARD',
-    description: '1911-2004, Infirmière et directrice de l\'école d\'infirmières de Genève',
+    description: '1911-2004, infirmière et directrice de l’école d’infirmières de Genève',
     position: { lat: 46.20390669438613, lng: 6.1437671214957845 }
   },
   {
@@ -298,7 +298,7 @@ var womens = [
   {
     slug: 'pauline-chaponniere-chaix',
     name: 'Pauline CHAPONNIÈRE-CHAIX',
-    description: '1850-1934, Infirmière et présidente du Conseil international des femmes',
+    description: '1850-1934, infirmière et présidente du Conseil international des femmes',
     position: { lat: 46.2038607, lng: 6.1480029 }
   },
   {
@@ -316,7 +316,7 @@ var womens = [
   {
     slug: 'germaine-duparc',
     name: 'Germaine DUPARC',
-    description: '1916-2008, Anthropologue',
+    description: '1916-2008, anthropologue',
     position: { lat: 46.1940027, lng: 6.1434479 }
   },
   {
@@ -340,7 +340,7 @@ var womens = [
   {
     slug: 'marguerite-dellenbach',
     name: 'Marguerite DELLENBACH',
-    description: '1905-1993, Directrice de musée et ethnologue',
+    description: '1905-1993, directrice de musée et ethnologue',
     position: { lat: 46.19879425253609, lng: 6.137236581545267 }
   },
   {
@@ -382,7 +382,7 @@ var womens = [
   {
     slug: 'yvonne-elles',
     name: 'Yvonne ELLES',
-    description: 'novembre 1961, Ménagère et candidate au Grand Conseil de Genève',
+    description: '1903-?, ménagère et candidate au Grand Conseil de Genève',
     position: { lat: 46.2019533, lng: 6.1310801 }
   },
   {
@@ -436,7 +436,7 @@ var womens = [
   {
     slug: 'anna-eynard-lullin',
     name: 'Anna EYNARD-LULLIN',
-    description: '1793-1868, Diplomate et philanthrope',
+    description: '1793-1868, diplomate et philanthrope',
     position: { lat: 46.2011, lng: 6.144999999999982 }
   },
   {
@@ -454,7 +454,7 @@ var womens = [
   {
     slug: 'george-eliot',
     name: 'George ELIOT',
-    description: '1819-1880, Écrivaine',
+    description: '1819-1880, écrivaine',
     position: { lat: 46.20219491518313, lng: 6.145943844774592 }
   },
   {
@@ -490,7 +490,7 @@ var womens = [
   {
     slug: 'ekaterina-dachkova',
     name: 'Ekaterina DACHKOVA',
-    description: '1743-1810, Princesse, diplomate et académicienne',
+    description: '1743-1810, princesse, diplomate et académicienne',
     position: { lat: 46.203035, lng: 6.1570022 }
   },
   {
@@ -502,13 +502,13 @@ var womens = [
   {
     slug: 'maria-edgeworth',
     name: 'Maria EDGEWORTH',
-    description: '1767-1849, Écrivaine',
+    description: '1767-1849, écrivaine',
     position: { lat: 46.2011322, lng: 6.1524539 }
   },
   {
     slug: 'alice-favre',
     name: 'Alice FAVRE',
-    description: '1851-1929, Présidente de la Croix-Rouge genevoise',
+    description: '1851-1929, présidente de la Croix-Rouge genevoise',
     position: { lat: 46.2015, lng: 6.159509999999955 }
   },
   {
@@ -562,7 +562,7 @@ var womens = [
   {
     slug: 'eva-evdokimova',
     name: 'Eva EVDOKIMOVA',
-    description: '1948-2009, Danseuse',
+    description: '1948-2009, danseuse',
     position: { lat: 46.20759608551177, lng: 6.143344213491787 }
   },
   {
