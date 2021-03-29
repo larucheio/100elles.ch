@@ -28,7 +28,7 @@ var womens = [
   {
     slug: 'helene-gautier-pictet',
     name: 'Hélène GAUTIER-PICTET',
-    description: '1888-1973, Fondatrice du Centre de liaison des associations féminines de Genève',
+    description: '1888-1973, fondatrice du Centre de liaison des associations féministes de Genève',
     position: { lat: 46.2111071, lng: 6.1415184 }
   },
   {
@@ -104,9 +104,9 @@ var womens = [
     position: { lat: 46.220558, lng: 6.138369 }
   },
   {
-    slug: 'marguerite-frick-cramer',
-    name: 'Marguerite FRICK-CRAMER',
-    description: '1887-1963, Déléguée du CICR',
+    slug: 'renee-marguerite-frick-cramer',
+    name: 'Renée-Marguerite FRICK-CRAMER',
+    description: '1887-1963, déléguée du CICR',
     position: { lat: 46.219759, lng: 6.147618 }
   },
   {
@@ -141,8 +141,8 @@ var womens = [
   },
   {
     slug: 'louise-de-frotte',
-    name: 'Louise De FROTTÉ',
-    description: '1617-1692, Femme de lettres',
+    name: 'Louise de FROTTÉ',
+    description: '1617-1692, femme de lettres',
     position: { lat: 46.201976, lng: 6.142144 }
   },
   {
@@ -201,8 +201,8 @@ var womens = [
   },
   {
     slug: 'yolande-de-france',
-    name: 'Yolande De FRANCE',
-    description: '1434-1478, Duchesse et régente du duché de Savoie',
+    name: 'Yolande de FRANCE',
+    description: '1434-1478, duchesse et régente du duché de Savoie',
     position: { lat: 46.211454, lng: 6.1479556 }
   },
   {
@@ -214,7 +214,7 @@ var womens = [
   {
     slug: 'pearl-grobet-secretan',
     name: 'Pearl GROBET-SECRÉTAN',
-    description: '1904-1988, Suffragiste',
+    description: '1904-1988, suffragiste',
     position: { lat: 46.21155520151464, lng: 6.149425025797655 }
   },
   {
@@ -346,7 +346,7 @@ var womens = [
   {
     slug: 'jeanne-hersch',
     name: 'Jeanne HERSCH',
-    description: '1910-2000, Philosophe',
+    description: '1910-2000, philosophe',
     position: { lat: 46.1957239, lng: 6.1401974 }
   },
   {
@@ -430,7 +430,7 @@ var womens = [
   {
     slug: 'lise-girardin',
     name: 'Lise GIRARDIN',
-    description: '1921-2010, Maire de Genève',
+    description: '1921-2010, maire de Genève',
     position: { lat: 46.2008373, lng: 6.1466125 }
   },
   {
@@ -568,7 +568,7 @@ var womens = [
   {
     slug: 'marie-goegg-pouchoulin',
     name: 'Marie GOEGG-POUCHOULIN',
-    description: '1826-1899, Militante féministe et fondatrice du <i>Journal des femmes</i>',
+    description: '1826-1899, militante féministe et fondatrice du <i>Journal des femmes</i>',
     position: { lat: 46.20870580227565, lng: 6.147412098217046 }
   },
   {
