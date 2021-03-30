@@ -82,7 +82,7 @@ var womens = [
   {
     slug: 'alexandra-kollontai',
     name: 'Alexandra KOLLONTAÏ',
-    description: '1872-1952, Ambassadrice de l’URSS',
+    description: '1872-1952, ambassadrice de l’URSS',
     position: { lat: 46.222712, lng: 6.139897 }
   },
   {
@@ -147,8 +147,8 @@ var womens = [
   },
   {
     slug: 'marcelle-de-kenzac',
-    name: 'Marcelle De KENZAC',
-    description: '1919-2009, Metteuse en scène',
+    name: 'Marcelle de KENZAC',
+    description: '1919-2009, metteuse en scène',
     position: { lat: 46.2022304, lng: 6.1413368 }
   },
   {
@@ -225,8 +225,8 @@ var womens = [
   },
   {
     slug: 'dora-distria',
-    name: 'Dora D\'ISTRIA',
-    description: '1828-1888, Écrivaine',
+    name: 'Dora d\'ISTRIA',
+    description: '1828-1888, écrivaine',
     position: { lat: 46.2161894, lng: 6.1479539 }
   },
   {
@@ -243,8 +243,8 @@ var womens = [
   },
   {
     slug: 'marie-paula-lecompte',
-    name: 'Marie-Paula LECOMPTE',
-    description: 'dite Minnie, vers 1850 - ?, Journaliste',
+    name: 'Marie Paula LECOMPTE',
+    description: 'dite Minnie, vers 1850- ?, journaliste',
     position: { lat: 46.2068733, lng: 6.1469835 }
   },
   {
@@ -262,7 +262,7 @@ var womens = [
   {
     slug: 'ekaterina-kouskova',
     name: 'Ekaterina KOUSKOVA',
-    description: '1869-1958, Journaliste',
+    description: '1869-1958, militante et journaliste',
     position: { lat: 46.2051929, lng: 6.1433848 }
   },
   {
@@ -310,7 +310,7 @@ var womens = [
   {
     slug: 'marie-huber',
     name: 'Marie HUBER',
-    description: '1695-1753, Théologienne',
+    description: '1695-1753, philosophe et théologienne',
     position: { lat: 46.1975644, lng: 46.1975644 }
   },
   {
@@ -472,7 +472,7 @@ var womens = [
   {
     slug: 'annie-jiagge',
     name: 'Annie JIAGGE',
-    description: '1918-1996, Magistrate et internationaliste',
+    description: '1918-1996, magistrate et défenseuse des droits des femmes ainsi que des personnes racisées',
     position: { lat: 46.2022545, lng: 6.1509015 }
   },
   {
@@ -574,7 +574,7 @@ var womens = [
   {
     slug: 'eglantyne-jebb',
     name: 'Eglantyne JEBB',
-    description: '1876-1928, Philanthrope',
+    description: '1876-1928, philanthrope',
     position: { lat: 46.20677468205677, lng: 6.141233622404343 }
   },
   {
