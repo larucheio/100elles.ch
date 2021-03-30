@@ -64,7 +64,7 @@ var womens = [
   {
     slug: 'marie-therese-maurette',
     name: 'Marie-Thérèse MAURETTE',
-    description: '1890-1989, Directrice de l’École internationale de Genève',
+    description: '1890-1989, directrice de l’École internationale de Genève',
     position: { lat: 46.219381, lng: 6.134770 }
   },
   {
@@ -88,19 +88,19 @@ var womens = [
   {
     slug: 'bertha-lutz',
     name: 'Bertha LUTZ',
-    description: '1894-1976, Vice-présidente de la Commission interaméricaine des femmes',
+    description: '1894-1976, vice-présidente de la Commission interaméricaine des femmes',
     position: { lat: 46.220934, lng: 6.141336 }
   },
   {
     slug: 'una-marson',
     name: 'Una MARSON',
-    description: '1905-1965, Journaliste et poétesse',
+    description: '1905-1965, journaliste, poétesse et dramaturge',
     position: { lat: 46.221131, lng: 6.140081 }
   },
   {
     slug: 'mary-mcgeachy',
-    name: 'Mary MCGEACHY',
-    description: '1901-1991, Fonctionnaire de l’UNRRA',
+    name: 'Mary McGEACHY',
+    description: '1901-1991, fonctionnaire de l’UNRRA',
     position: { lat: 46.220558, lng: 6.138369 }
   },
   {
@@ -328,7 +328,7 @@ var womens = [
   {
     slug: 'jane-marcet',
     name: 'Jane MARCET',
-    description: '1769-1858, Écrivaine et vulgarisatrice scientifique',
+    description: '1769-1858, écrivaine et vulgarisatrice scientifique',
     position: { lat: 46.1964285, lng: 6.1421093 }
   },
   {
@@ -388,7 +388,7 @@ var womens = [
   {
     slug: 'lucette-leuba',
     name: 'Lucette LEUBA',
-    description: 'novembre 1961, Ouvrière, syndicaliste et candidate au Grand Conseil de Genève',
+    description: 'novembre 1961, ouvrière, syndicaliste et candidate au Grand Conseil de Genève',
     position: { lat: 46.2027, lng: 6.128770000000031 }
   },
   {
@@ -466,7 +466,7 @@ var womens = [
   {
     slug: 'claudine-levet',
     name: 'Claudine LEVET',
-    description: 'aout 1535, Prédicatrice protestante',
+    description: 'aout 1535, prédicatrice protestante',
     position: { lat: 46.200771, lng: 6.1484938 }
   },
   {
@@ -495,8 +495,8 @@ var womens = [
   },
   {
     slug: 'anne-de-lusignan',
-    name: 'Anne De LUSIGNAN',
-    description: '1418-1462, Duchesse de Savoie et fondatrice d’une chapelle au couvent de Rive',
+    name: 'Anne de LUSIGNAN',
+    description: '1418-1462, duchesse de Savoie et fondatrice d’une chapelle au couvent de Rive',
     position: { lat: 46.2019, lng: 6.15337999999997 }
   },
   {
@@ -514,13 +514,13 @@ var womens = [
   {
     slug: 'lee-ya-ching',
     name: 'LEE Ya-Ching',
-    description: '1912-1998, Actrice et aviatrice',
+    description: '1912-1998, actrice et aviatrice',
     position: { lat: 46.2005307, lng: 6.1583773 }
   },
   {
     slug: 'marie-sidonia-de-lenoncourt',
-    name: 'Marie-Sidonia De LENONCOURT',
-    description: '1650-1685, Aventurière et mémorialiste',
+    name: 'Marie-Sidonia de LENONCOURT',
+    description: '1650-1685, aventurière et mémorialiste',
     position: { lat: 46.2022545, lng: 6.1509015 }
   },
   {
@@ -580,13 +580,13 @@ var womens = [
   {
     slug: 'audre-lorde',
     name: 'Audre LORDE',
-    description: '1934-1992, Écrivaine, poétesse et activiste lesbienne',
+    description: '1934-1992, écrivaine, poétesse et militante lesbienne',
     position: { lat: 46.207481, lng: 6.1433764 }
   },
   {
     slug: 'helene-de-mandrot',
-    name: 'Hélène De MANDROT',
-    description: '1867-1948, Artiste et mécène',
+    name: 'Hélène de MANDROT',
+    description: '1867-1948, artiste et mécène',
     position: { lat: 46.2066376, lng: 6.13931 }
   },
   {
