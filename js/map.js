@@ -45,14 +45,14 @@ var womens = [
   },
   {
     slug: 'jean-sindab',
-    name: 'Jean SINDAB Dr.',
-    description: '1944-1996, Internationaliste antiraciste et antisexiste',
+    name: 'Jean SINDAB',
+    description: '1944-1996, internationaliste antiraciste et antisexiste',
     position: { lat: 46.2096652, lng: 6.1403311 }
   },
   {
     slug: 'camille-vidart',
     name: 'Camille VIDART',
-    description: '1854-1930, Présidente de l’Union des femmes de Genève',
+    description: '1854-1930, présidente de l’Union des femmes de Genève',
     position: { lat: 46.2119275, lng: 6.1355424 }
   },
   {
@@ -70,7 +70,7 @@ var womens = [
   {
     slug: 'helvi-sipila',
     name: 'Helvi SIPILÄ',
-    description: '1915-2009, Fonctionnaire de l’ONU',
+    description: '1915-2009, fonctionnaire de l’ONU',
     position: { lat: 46.222569, lng: 6.138753 }
   },
   {
@@ -111,14 +111,14 @@ var womens = [
   },
   {
     slug: 'marguerite-thibert',
-    name: 'Marguerite THIBERT Dr.',
-    description: '1886-1982, Fonctionnaire du BIT',
+    name: 'Marguerite THIBERT',
+    description: '1886-1982, fonctionnaire du BIT',
     position: { lat: 46.220685, lng: 6.140296 }
   },
   {
-    slug: 'mary-florence-wilson',
-    name: 'Mary-Florence WILSON',
-    description: '1884-1977, Bibliothécaire de la Société des Nations',
+    slug: 'florence-wilson',
+    name: 'Florence WILSON',
+    description: '1884-1977, bibliothécaire de la Société des Nations',
     position: { lat: 46.222349, lng: 6.138297 }
   },
   {
@@ -171,14 +171,14 @@ var womens = [
   },
   {
     slug: 'jeanne-henriette-rath',
-    name: 'Jeanne-Henriette RATH',
-    description: '1773-1856, Peintre',
+    name: 'Jeanne Henriette RATH',
+    description: '1773-1856, peintre',
     position: { lat: 46.201884, lng: 6.143314 }
   },
   {
     slug: 'carole-roussopoulos',
     name: 'Carole ROUSSOPOULOS',
-    description: '1945-2009, Vidéaste',
+    description: '1945-2009, vidéaste',
     position: { lat: 46.201906, lng: 6.1434458 }
   },
   {
@@ -195,8 +195,8 @@ var womens = [
   },
   {
     slug: 'beatrice-de-portugal',
-    name: 'Béatrice De PORTUGAL',
-    description: '1504-1538, Duchesse de Savoie',
+    name: 'Béatrice de PORTUGAL',
+    description: '1504-1538, duchesse de Savoie',
     position: { lat: 46.2112358, lng: 6.1464372 }
   },
   {
@@ -220,7 +220,7 @@ var womens = [
   {
     slug: 'victoire-tinayre',
     name: 'Victoire TINAYRE',
-    description: '1831-1895, Institutrice et pédagogue',
+    description: '1831-1895, institutrice et pédagogue',
     position: { lat: 46.2145138, lng: 6.1497591 }
   },
   {
@@ -231,8 +231,8 @@ var womens = [
   },
   {
     slug: 'elisabeth-de-wittelsbach',
-    name: 'Élisabeth De WITTELSBACH',
-    description: 'dite Sissi, 1837-1898, Impératrice d’Autriche et reine de Hongrie',
+    name: 'Élisabeth de WITTELSBACH',
+    description: 'dite Sissi, 1837-1898, impératrice d’Autriche et reine de Hongrie',
     position: { lat: 46.20994495125272, lng: 6.151240974274515 }
   },
   {
@@ -279,20 +279,20 @@ var womens = [
   },
   {
     slug: 'trente-immortelles-de-geneve',
-    name: 'Des TRENTE IMMORTELLES DE GENEVE',
-    description: '1778-1798, Garantes de rentes viagères',
+    name: 'Trente immortelles de Genève',
+    description: '1778-1798, garantes de rentes viagères',
     position: { lat: 46.2051291, lng: 6.1432261 }
   },
   {
     slug: 'nelly-schreiber-favre',
     name: 'Nelly SCHREIBER-FAVRE',
-    description: '1879-1972, Avocate',
+    description: '1879-1972, avocate',
     position: { lat: 46.2027488, lng: 6.1465055 }
   },
   {
     slug: 'anna-s',
     name: 'Anna S.',
-    description: '?-1888, Prostituée',
+    description: '?-1888, prostituée',
     position: { lat: 46.20277674014949, lng: 6.1487288076865525 }
   },
   {
@@ -322,7 +322,7 @@ var womens = [
   {
     slug: 'lina-stern',
     name: 'Lina STERN',
-    description: '1878-1968, Médecin et biochimiste',
+    description: '1878-1968, médecin et biochimiste',
     position: { lat: 46.1950256, lng: 6.143598 }
   },
   {
@@ -352,13 +352,13 @@ var womens = [
   {
     slug: 'henriette-saloz-joudra',
     name: 'Henriette SALOZ-JOUDRA',
-    description: '1855-1928, Médecin',
+    description: '1855-1928, médecin',
     position: { lat: 46.1962039, lng: 6.1372663 }
   },
   {
     slug: 'kitty-ponse',
     name: 'Kitty PONSE',
-    description: '1897-1978, Biologiste',
+    description: '1897-1982, biologiste',
     position: { lat: 46.198066, lng: 6.1435296 }
   },
   {
@@ -400,31 +400,31 @@ var womens = [
   {
     slug: 'griselidis-real',
     name: 'Grisélidis RÉAL',
-    description: '1929-2005, Écrivaine et prostituée',
+    description: '1929-2005, écrivaine et prostituée',
     position: { lat: 46.2011884, lng: 6.1375706 }
   },
   {
     slug: 'noelle-roger',
     name: 'Noëlle ROGER',
-    description: '1874-1953, Journaliste et écrivaine',
+    description: '1874-1953, journaliste et écrivaine',
     position: { lat: 46.2040795, lng: 6.1388633 }
   },
   {
     slug: 'trois-blanchisseuses',
-    name: 'TROIS BLANCHISSEUSES',
-    description: 'Décédées le 1er aout 1913',
+    name: 'Trois blanchisseuses',
+    description: 'décédées le 1er aout 1913',
     position: { lat: 46.204161, lng: 6.138896 }
   },
   {
     slug: 'louisa-vuille',
     name: 'Louisa VUILLE',
-    description: '1901-1994, Ouvrière horlogère et syndicaliste',
+    description: '1901-1994, ouvrière horlogère et syndicaliste',
     position: { lat: 46.20406, lng: 6.136363 }
   },
   {
     slug: 'louise-sarrasin',
     name: 'Louise SARRASIN',
-    description: '1551-1623, Femme de lettres',
+    description: '1551-1623, femme de lettres',
     position: { lat: 46.199716122213246, lng: 6.1513747313202884 }
   },
   {
@@ -478,7 +478,7 @@ var womens = [
   {
     slug: 'theodelinde',
     name: 'THÉODELINDE',
-    description: '~500, Reine burgonde',
+    description: '?-~500, reine burgonde',
     position: { lat: 46.2012612, lng: 6.1468905 }
   },
   {
@@ -537,8 +537,8 @@ var womens = [
   },
   {
     slug: 'mary-wollstonecraft-godwin',
-    name: 'Mary WOLLSTONECRAFT GODWIN',
-    description: 'Mary-SHELLEY, 1797-1851, Écrivaine',
+    name: 'Mary WOLLSTONECRAFT GODWIN (Mary Shelley)',
+    description: '1797-1851, écrivaine',
     position: { lat: 46.2076006, lng: 6.1634618 }
   },
   {
@@ -592,13 +592,13 @@ var womens = [
   {
     slug: 'simone-rapin',
     name: 'Simone RAPIN',
-    description: '1901-1988, Écrivaine',
+    description: '1901-1988, écrivaine',
     position: { lat: 46.2071013, lng: 6.1410763 }
   },
   {
     slug: 'elisabeth-de-stoutz',
-    name: 'Élisabeth De STOUTZ',
-    description: '1854-1917, Peintre et écrivaine',
+    name: 'Élisabeth de STOUTZ',
+    description: '1854-1917, peintre et écrivaine',
     position: { lat: 46.2070628, lng: 6.1439522 }
   }
 ]
