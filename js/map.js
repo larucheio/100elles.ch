@@ -34,13 +34,13 @@ var womens = [
   {
     slug: 'marie-louise-mignot',
     name: 'Marie-Louise MIGNOT',
-    description: 'dite Madame Denis, 1712-1790, Salonnière',
+    description: 'dite Madame Denis, 1712-1790, salonnière',
     position: { lat: 46.207561, lng: 6.1379743 }
   },
   {
     slug: 'paule-minck',
     name: 'Paule MINCK',
-    description: '1839-1901, Femme de lettres, communarde et féministe',
+    description: 'ou Mink, 1839-1901, femme de lettres, communarde et féministe',
     position: { lat: 46.209733, lng: 6.1389966 }
   },
   {
@@ -58,7 +58,7 @@ var womens = [
   {
     slug: 'violeta-parra',
     name: 'Violeta PARRA',
-    description: '1917-1967, Chanteuse et artiste plasticienne',
+    description: '1917-1967, chanteuse et artiste plasticienne',
     position: { lat: 46.208455934391594 , lng: 6.135307761579043 }
   },
   {
@@ -76,7 +76,7 @@ var womens = [
   {
     slug: 'ceza-nabarawi',
     name: 'Ceza NABARAWI',
-    description: '1897-1985, Rédactrice en cheffe de l’Égyptienne',
+    description: '1897-1985, rédactrice en cheffe de <i>L’Égyptienne</i>',
     position: { lat: 46.220956, lng: 6.136695 }
   },
   {
@@ -160,13 +160,13 @@ var womens = [
   {
     slug: 'marcelle-moynier',
     name: 'Marcelle MOYNIER',
-    description: '1888-1980, Fondatrice du Théâtre des marionnettes de Genève',
+    description: '1888-1980, fondatrice du Théâtre des marionnettes de Genève',
     position: { lat: 46.2017735, lng: 6.142289 }
   },
   {
     slug: 'michelle-nicod',
     name: 'Michelle NICOD',
-    description: '~1519-1618, Libraire-imprimeuse',
+    description: '~1519-1618, libraire-imprimeuse',
     position: { lat: 46.2014622, lng: 6.14289 }
   },
   {
@@ -236,9 +236,9 @@ var womens = [
     position: { lat: 46.20994495125272, lng: 6.151240974274515 }
   },
   {
-    slug: 'julienne-christine-piachaud',
-    name: 'Julienne-Christine PIACHAUD',
-    description: '1894-?, Fonctionnaire de la Société des Nations',
+    slug: 'julienne-piachaud',
+    name: 'Julienne PIACHAUD',
+    description: '1894-1978, fonctionnaire de la Société des Nations',
     position: { lat: 46.21190236999755, lng: 6.152796947290767 }
   },
   {
@@ -255,8 +255,8 @@ var womens = [
   },
   {
     slug: 'ouvrieres-horlogeres-de-geneve',
-    name: 'Des OUVRIERES HORLOGERES DE GENEVE',
-    description: '18ème-19ème siècles',
+    name: 'Ouvrières horlogères de Genève',
+    description: 'XVIIIe-XIXe siècles',
     position: { lat: 46.204829700959536, lng: 6.145178220901471 }
   },
   {
@@ -304,7 +304,7 @@ var womens = [
   {
     slug: 'therese-pittard',
     name: 'Thérèse PITTARD',
-    description: '1872-1969, Pédagogue et historienne',
+    description: '1872-1969, pédagogue et historienne',
     position: { lat: 46.1936991, lng: 6.1417813 }
   },
   {
@@ -393,8 +393,8 @@ var womens = [
   },
   {
     slug: 'elna-palme-dutt',
-    name: 'Elna PALME-DUTT',
-    description: '1891-1982, Statisticienne et traductrice',
+    name: 'Elna PALME DUTT',
+    description: '1891-1982, statisticienne et traductrice',
     position: { lat: 46.2011365, lng: 6.1295206 }
   },
   {
@@ -525,14 +525,14 @@ var womens = [
   },
   {
     slug: 'albertine-necker-de-saussure',
-    name: 'Albertine NECKER De SAUSSURE',
-    description: '1766-1841, Écrivaine et pédagogue',
+    name: 'Albertine NECKER de SAUSSURE',
+    description: '1766-1841, écrivaine et pédagogue',
     position: { lat: 46.2049745, lng: 6.1579936 }
   },
   {
     slug: 'alice-emilie-noerbel-bertrand',
     name: 'Alice Émilie NOERBEL BERTRAND',
-    description: '1872-1941, Missionnaire et philanthrope',
+    description: '1872-1941, missionnaire et philanthrope',
     position: { lat: 46.2009, lng: 6.159819999999968 }
   },
   {
