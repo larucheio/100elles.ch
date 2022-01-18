@@ -311,7 +311,7 @@ var womens = [
     slug: 'marie-huber',
     name: 'Marie HUBER',
     description: '1695-1753, philosophe et théologienne',
-    position: { lat: 46.1975644, lng: 46.1975644 }
+    position: { lat: 46.1975644, lng: 6.1975644 }
   },
   {
     slug: 'germaine-duparc',
