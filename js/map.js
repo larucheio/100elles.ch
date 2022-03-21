@@ -53,7 +53,8 @@ var womens = [
     slug: 'camille-vidart',
     name: 'Camille VIDART',
     description: '1854-1930, présidente de l’Union des femmes de Genève',
-    position: { lat: 46.2119275, lng: 6.1355424 }
+    position: { lat: 46.2119275, lng: 6.1355424 },
+    perpetuated: "a remplacé le Chemin Louis Dunant"
   },
   {
     slug: 'violeta-parra',
@@ -239,7 +240,8 @@ var womens = [
     slug: 'julienne-piachaud',
     name: 'Julienne PIACHAUD',
     description: '1894-1978, fonctionnaire de la Société des Nations',
-    position: { lat: 46.21190236999755, lng: 6.152796947290767 }
+    position: { lat: 46.21190236999755, lng: 6.152796947290767 },
+    perpetuated: "a remplacé la Rue René-Louis Piachaud"
   },
   {
     slug: 'marie-paula-lecompte',
@@ -275,7 +277,8 @@ var womens = [
     slug: 'elisabeth-baulacre',
     name: 'Élisabeth BAULACRE',
     description: '1613-1693, cheffe d’entreprise',
-    position: { lat: 46.2038443, lng: 6.1458456 }
+    position: { lat: 46.2038443, lng: 6.1458456 },
+    perpetuated: "a remplacé la Rue Léonard Baulacre"
   },
   {
     slug: 'trente-immortelles-de-geneve',
@@ -335,13 +338,15 @@ var womens = [
     slug: 'mina-audemars',
     name: 'Mina AUDEMARS',
     description: '1883-1971, pédagogue',
-    position: { lat: 46.1955233, lng: 6.1411337 }
+    position: { lat: 46.1955233, lng: 6.1411337 },
+    perpetuated: "a remplacé la Rue de la Vallée"
   },
   {
     slug: 'marguerite-dellenbach',
     name: 'Marguerite DELLENBACH',
     description: '1905-1993, directrice de musée et ethnologue',
-    position: { lat: 46.19879425253609, lng: 6.137236581545267 }
+    position: { lat: 46.19879425253609, lng: 6.137236581545267 },
+    perpetuated: "a remplacé la Rue François Bergalone"
   },
   {
     slug: 'jeanne-hersch',
@@ -371,7 +376,8 @@ var womens = [
     slug: 'ruth-bosiger',
     name: 'Ruth BÖSIGER',
     description: 'dite Coucou, 1907-1990, vendeuse et militante anarchiste',
-    position: { lat: 46.2035412, lng: 6.1389273 }
+    position: { lat: 46.2035412, lng: 6.1389273 },
+    perpetuated: "a remplacé la Place du Chevelu"
   },
   {
     slug: 'elise-cabossel',
@@ -413,7 +419,8 @@ var womens = [
     slug: 'trois-blanchisseuses',
     name: 'Trois blanchisseuses',
     description: 'décédées le 1er aout 1913',
-    position: { lat: 46.204161, lng: 6.138896 }
+    position: { lat: 46.204161, lng: 6.138896 },
+    perpetuated: "ont remplacé la Rue de la Pisciculture"
   },
   {
     slug: 'louisa-vuille',
@@ -431,7 +438,8 @@ var womens = [
     slug: 'lise-girardin',
     name: 'Lise GIRARDIN',
     description: '1921-2010, maire de Genève',
-    position: { lat: 46.2008373, lng: 6.1466125 }
+    position: { lat: 46.2008373, lng: 6.1466125 },
+    perpetuated: "a remplacé la Place des 22 Cantons"
   },
   {
     slug: 'anna-eynard-lullin',
@@ -509,7 +517,8 @@ var womens = [
     slug: 'alice-favre',
     name: 'Alice FAVRE',
     description: '1851-1929, présidente de la Croix-Rouge genevoise',
-    position: { lat: 46.2015, lng: 6.159509999999955 }
+    position: { lat: 46.2015, lng: 6.159509999999955 },
+    perpetuated: "complète l'Avenue William Favre"
   },
   {
     slug: 'lee-ya-ching',
@@ -575,7 +584,8 @@ var womens = [
     slug: 'eglantyne-jebb',
     name: 'Eglantyne JEBB',
     description: '1876-1928, philanthrope',
-    position: { lat: 46.20677468205677, lng: 6.141233622404343 }
+    position: { lat: 46.20677468205677, lng: 6.141233622404343 },
+    perpetuated: "a remplacé le nom du Parc des Acacias"
   },
   {
     slug: 'audre-lorde',
@@ -798,6 +808,12 @@ function initMap() {
   var infowindow = new google.maps.InfoWindow();
 
   var markers = filteredWomens.map(woman => {
+    if (woman.perpetuated) {
+      icon.url = '/img/marker-perpetuated.png'
+    } else {
+      icon.url = '/img/marker.png'
+    }
+
     var marker = new google.maps.Marker({
       position: woman.position,
       map: map,
@@ -806,7 +822,7 @@ function initMap() {
 
     if (!isBioPage) {
       marker.addListener('click', function() {
-        infowindow.setContent(`<b>${woman.name}</b><br>${woman.description}<br></br><a href="/biographies/${woman.slug}/"><b>En savoir plus ˃</b></a>`)
+        infowindow.setContent(`<b>${woman.name}</b><br>${woman.description}${woman.perpetuated ? '<br>' + woman.perpetuated : null}<br></br><a href="/biographies/${woman.slug}/"><b>En savoir plus ˃</b></a>`)
         infowindow.open(map, marker);
       });
     }
