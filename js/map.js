@@ -314,7 +314,7 @@ var womens = [
     slug: 'marie-huber',
     name: 'Marie HUBER',
     description: '1695-1753, philosophe et théologienne',
-    position: { lat: 46.1975644, lng: 6.1975644 }
+    position: { lat: 46.19659230006787, lng: 6.146635069594104 }
   },
   {
     slug: 'germaine-duparc',
@@ -820,12 +820,10 @@ function initMap() {
       icon: icon
     });
 
-    if (!isBioPage) {
-      marker.addListener('click', function() {
-        infowindow.setContent(`<b>${woman.name}</b><br>${woman.description}${woman.perpetuated ? '<br>' + woman.perpetuated : null}<br></br><a href="/biographies/${woman.slug}/"><b>En savoir plus ˃</b></a>`)
-        infowindow.open(map, marker);
-      });
-    }
+    marker.addListener('click', function() {
+      infowindow.setContent(`<b>${woman.name}</b><br>${woman.description}${woman.perpetuated ? '<br>' + woman.perpetuated : ''}<br></br><a href="/biographies/${woman.slug}/"><b>En savoir plus ˃</b></a>`)
+      infowindow.open(map, marker);
+    });
     return marker
   })
 }
